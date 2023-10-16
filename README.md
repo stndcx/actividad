@@ -34,7 +34,6 @@ Respuesta
 {
     "token": "555555I1NiIsInR5cCI6IkpXVCJ9..."
 }
-
 ```
 
 ### Obtener datos
@@ -43,7 +42,6 @@ Para obtener los datos debe pasar en la cabecera los siguientes valores
 
 ```
 Authorization | Bearer 555555I1NiIsInR5cCI6IkpXVCJ9...
-
 ```
 
 ### Obtener todos los comentarios
@@ -75,3 +73,14 @@ Metodo: PATCH - `http://localhost:3000/api/comentarios/id`
 
 Metodo: DELETE - `http://localhost:3000/api/comentarios/id`
 
+## react/front_react
+
+El panel de comentarios esta realizado con React y Vite. Para utilizar el panel de comentarios
+
+`npm install`
+
+luego
+
+`npm run dev`
+
+El panel se ejecutara en puerto `5173`. 
